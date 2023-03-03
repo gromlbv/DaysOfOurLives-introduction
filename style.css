@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.background1{
+
+    box-sizing: border-box;
+    width: 70%;
+    height: 50em;
+    margin-left: 15%;
+    margin-right: auto;
+
+    background: rgba(44, 44, 44, 0.66);
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(32px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 25px;
+}
+#bg_img{
+    position: absolute;
+    background: url(https://s1.livelib.ru/boocover/1003973497/o/0a3d/Mikita_Franko__Dni_nashej_zhizni.jpeg);
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.page_switcher{
+    box-sizing: border-box;
+
+    width: 20em;
+    height: 5em;
+    margin-left: 25%;
+
+    background: rgba(44, 44, 44, 0.66);
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(32px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 25px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+#left{
+    margin-left: 10%;
+}
